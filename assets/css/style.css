@@ -1,0 +1,2673 @@
+.col-md-12,
+.col-xs-12,
+.col-lg-12,
+.col-sm-12{
+	padding: 0;
+}
+.container-fluid{
+    max-width: 135rem;
+}
+.slide-show{
+    padding: 0;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #fff;
+    border-bottom: 3px solid #f6516a;
+    z-index: 9999999999;
+}
+.slide-show,
+.login-field,
+.blood-book,
+.blood-life-main-body,
+.blog{
+    margin-top: 67px;
+}
+.desk-menu>div>div,
+.mob-menu>div>div{
+	padding: 10px 0;
+}
+.logo-link>img{
+	display: initial;
+	max-width: 92px;
+}
+.menu-panel{
+	float: right! important;
+	position: relative;
+	top: 19px;
+}
+.menu-panel>ul{
+	display: table;
+	margin-bottom: 0;
+}
+.menu-panel>ul>li{
+	display: table-cell;
+	list-style: none;
+	padding: 5px;
+}
+.menu-panel>ul>li>a{
+	padding: 5px 15px;
+	font-size: 17px;
+	font-family: 'PT Sans';
+	color: #444;
+	transition: all .3s;
+}
+.menu-panel>ul>li>a:hover,
+.menu-panel>ul>li>a:focus,
+.menu-panel>ul>li>a:active{
+	text-decoration: none;
+	color: #f6516a;
+	border-bottom: 1px solid #f6516a;
+	border-radius: 4px;
+	transition: all 1s;
+    outline: 0;
+}
+.menu-space>ul>li>a.active-menu,
+.menu-panel>ul>li>a.active-menu{
+	color: #f6516a;
+	border-bottom: 1px solid #f6516a;
+	border-radius: 4px;
+}
+.desk-menu,
+.mon-menu{
+	overflow: hidden;
+    position: relative;
+}
+
+.desk-menu{
+	display: block;
+}
+.desk-menu>a{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 99;
+    color: #444;
+    font-family: 'PT Sans';
+    font-size: 13px;
+}
+.desk-menu>a>span{
+    position: relative;
+    bottom: 2px;
+}
+.desk-menu>a:hover,
+.desk-menu>a:focus,
+.desk-menu>a:active{
+    text-decoration: none;
+    outline: 0;
+}
+.mob-menu,
+.menu-field{
+	display: none;
+}
+#menu-bar{
+	position: relative;
+}
+#menu{
+	width: 25px;
+    height: 23px;
+    position: absolute;
+    z-index: 9999999999999;
+    cursor: pointer;
+}
+#menu-bar>i{
+    background: #f7516b;
+    padding: 1px;
+    margin-bottom: 3px;
+    display: block;
+}
+#menu-bar>i:nth-child(even){
+	width: 25px;
+}
+#menu-bar>i:nth-child(odd){
+	width: 15px;
+	position: relative;
+    left: 10px;
+}
+.menu-field{
+	display: none;
+	position: fixed;
+    left: 0;
+    right: 0;
+    top: 65px;
+    bottom: 0;
+    background: rgba(245, 245, 245, 0.7);
+    z-index: 9999999999;
+}
+.menu-space{
+    position: relative;
+	max-width: 320px;
+    width: 100%;
+    float: right;
+    margin-bottom: 0;
+    height: 100%;
+    box-shadow: -1px 2px 2px #f7516b;
+    background: #f5f5f5;
+}
+.menu-space>ul{
+	padding: 0;
+	margin-bottom: 0;
+    height: 100%;
+}
+.menu-space>ul>li{
+	list-style: none;
+    display: block;
+    margin: 5px auto;
+}
+.menu-space>ul>li>a{
+	padding: 5px 15px;
+    display: block;
+    color: #444;
+    font-size: 15px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.menu-space>ul>li>a:hover,
+.menu-space>ul>li>a:focus,
+.menu-space>ul>li>a:active{
+	text-decoration: none;
+	color: #f6516a;
+	border-bottom: 3px solid #ff9aa9;
+	border-radius: 3px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    outline: 0;
+}
+.main-body{
+	margin-bottom: 35px;
+}
+.blood-site-operation,
+.blood-site-operation-reg{
+	overflow: hidden;
+	margin-top: 25px;
+}
+.blood-site-operation>div>div>div{
+	max-width: 380px;
+	padding: 15px;
+	width: 100%;
+	position: relative;
+	margin: 15px;
+	height: 330px;
+}
+.blood-site-operation>div>div>div:before{
+	content: '';
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border: 1px solid #e5e5e5;
+	box-shadow: 3px 3px 6px #f2f2f2;
+}
+.blood-site-operation>div>div:nth-child(2)>div{
+	float: right;
+	margin-right: 30px;
+}
+.blood-site-operation>div>div:last-child>div{
+	margin-left: 30px;
+}
+.blood-site-operation-box-title:before{
+	content: '';
+    position: absolute;
+    top: 0;
+    height: 20px;
+    left: 0px;
+    width: 50px;
+    background-color: #fff;
+    z-index: -1;
+    transition: .25s ease-out all;
+}
+.blood-site-operation-box-title>h3{
+	margin: 0;
+    margin-top: -12px;
+    margin-left: -16px;
+    padding: 25px 0;
+    background: #fff;
+    font-family: 'PT Sans';
+    font-size: 20px;
+    font-weight: 600;
+}
+.doner-entry-box,
+.doner-find-box{
+	overflow: hidden;
+}
+.doner-entry-box>div{
+	padding: 0 15px;
+}
+.doner-entry-box>div:nth-child(1),
+.doner-entry-box>div:nth-child(2){
+	padding: 0;
+}
+.doner-entry-box input,
+.doner-entry-box select,
+.doner-find-box input,
+.doner-find-box select{
+    height: auto;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+}
+.doner-find-box select{
+	padding: 10px;
+}
+.doner-entry-box #submit,
+.doner-find-box #search{
+	font-size: 14px;
+	padding: 3px 15px;
+	font-family: 'PT Sans';
+    margin: 2px 0;
+}
+.doner-find-box{
+	position: relative;
+    top: 50%;
+    transform: translateY(-80%);
+}
+.mid-field-info{
+	overflow: hidden;
+}
+.mid-field-info>div>div{
+	overflow: hidden;
+    margin: 15px 0;
+}
+.img-box-skew{
+	overflow: hidden;
+    margin-right: -160px;
+    margin-left: -160px;
+    transform: skewX(-44deg);
+}
+.img-box{
+	margin-left: 160px;
+    transform: skewX(44deg);
+}
+.blood-list-count-field{
+	overflow: hidden;
+	display: block;
+	background: #3c444f;
+	padding: 40px;
+	margin: 25px 0;
+}
+.blood-list-count-field>div{
+	display: block;
+	text-align: center;
+}
+.blood-list-left-logo,
+.blood-list-right-logo{
+	position: absolute;
+    top: 50%;
+    width: 6%;
+    transform: translateY(-50%);
+    border-top: 1px solid #5b6674;
+}
+.blood-list-left-logo{
+	left: 20px;
+}
+.blood-list-right-logo{
+	right: 20px;
+}
+.blood-list-left-logo:before,
+.blood-list-right-logo:before{
+	content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 17px;
+    background-color: #f6516a;
+    ;
+    border-radius: 3px;
+}
+.blood-list-left-logo:before{
+	right: 0;
+}
+.blood-list-right-logo:before{
+	left: 0;
+}
+.blood-list-mid-panel{
+	overflow: hidden;
+}
+.blood-list-mid-panel{
+	display: block;
+}
+.blood-list-mid-panel>div{
+	display: inline-block;
+	padding: 0 35px;
+	border-right: 1px solid #5b6674;
+}
+.blood-list-mid-panel>div:last-child{
+	border-right: none;
+}
+.blood-list-mid-panel>div>h3{
+	font-weight: 600;
+	font-size: 20px;
+}
+.blood-list-mid-panel>div>h3,
+.blood-list-mid-panel>div>p{
+	text-align: center;
+	color: #fff;
+	font-family: 'PT Sans';
+}
+.blood-list-mid-panel>div>p>b{
+	color: #f6516a;
+}
+.article-title{
+	text-align: center;
+	margin: 20px;
+    margin-top: 50px;
+	font-weight: 600;
+	font-family: 'PT Sans';
+}
+.blood-gen-trans-field{
+	background: #f5f5f5;
+	overflow: hidden;
+	max-width: 820px;
+	width: 100%;
+	margin: auto;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 5px #ccc;
+}
+.blood-gen-trans-field>div>div>div>div>div.blood-list{
+	text-align: center;
+}
+.blood-list{
+	margin: 15px 0;
+}
+.blood-gen-trans-field>div>div>div{
+	padding: 0;
+}
+.blood-gen-trans-field>div>div>div>div:nth-child(2)>div.blood-list{
+	margin-top: 0;
+    margin-bottom: 0;
+}
+.blood-gen-trans-field>div>div>div>div:nth-child(1)>div.blood-list{
+	margin-bottom: 0;
+}
+.blood-gen-trans-field>div>div>div>div:nth-child(1)>div.blood-list>label:nth-child(1){
+	background: #f6516a;
+	color: #fff;
+}
+.blood-list>label{
+	width: 50px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background: #fff;
+    text-align: center;
+    border-radius: 16px;
+    font-family: 'PT Sans';
+    border: 1px solid #f6516a;
+    box-shadow: 1px 2px 3px #f6516a;
+}
+.parent-logo{
+	position: relative;
+	text-align: center;
+}
+.parent-logo>span:nth-child(1){
+	font-size: 220px;
+	color: #ccc;
+}
+.parent-logo>span:nth-child(2),
+.child-logo>span:nth-child(2){    
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+	font-size: 52px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'PT';
+}
+.child-logo>span:nth-child(2){
+	font-size: 32px;
+	top: 42%;
+}
+.blood-deter-title-gend{
+	text-align: center;
+    font-size: 19px;
+    font-family: 'PT Sans';
+    margin: 0;
+    position: relative;
+    top: 25px;
+}
+.child-logo{
+	text-align: center;
+	position: relative;
+}
+.child-logo>span:first-child{
+	font-size: 160px;
+    color: #ccc;
+}
+.space-blood-gen-trans{
+	height: 140px;
+}
+.child-blood>b{
+	display: block;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: .4;
+}
+.blood-gen-trans-field>h4{
+	text-align: center;
+	font-family: 'PT Sans';
+	padding: 0 25px;
+}
+.blood-group{
+	overflow: hidden;
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
+}
+.blood-group>div{
+	text-align: center;
+}
+.blood-group>div>label{
+	margin: 10px 0;
+    padding: 7px 0;
+    max-width: 135px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 1px 5px #ccc;
+    border-radius: 16px;
+    font-family: 'PT Sans';
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.blood-group>div>label.active-group{
+	background: #e20101;
+	color: #fff;
+	box-shadow: none;
+}
+.blood-bottle{
+	max-width: 140px;
+	width: 100%;
+	margin: 25px auto;
+	position: relative;
+}
+.blood-bottle>img{
+	width: 100%;
+}
+.blood-bottle>img:nth-child(2),
+.blood-bottle>img:nth-child(3){
+	position: absolute;
+    top: 19px;
+    max-width: 109px;
+    width: 100%;
+    left: 18px;
+    max-height: 405px;
+    height: 100%;
+    z-index: 4;
+}
+.blood-bottle>img:nth-child(3){
+	max-width: 105px;
+    top: 16px;
+    left: 18px;
+    z-index: 1;
+}
+.blood-bottle>div{
+	position: absolute;
+    bottom: 14px;
+    left: 18px;
+    background: linear-gradient(to top, #ff0023 60%,#fadd4a 40%);
+    max-height: 320px;
+    height: 100%;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    max-width: 104px;
+    width: 100%;
+    z-index: 3;
+}
+.blood-bottle>div>span{
+	position: absolute;
+    z-index: 5;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'PT Sans';
+}
+.blood-bottle>div>span:nth-child(1),
+.blood-bottle>div>span:nth-child(2){
+	width: initial;
+	border-radius: 50%;
+	top: 20px;
+	z-index: 5;
+}
+.blood-bottle>div>span:nth-child(2){
+	top: 45%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.blood-bottle>div>span:nth-child(3){
+	top: 30%;
+	z-index: 2;
+}
+.blood-bottle>div>span:nth-child(4){
+	top: 70%;
+	color: #fff;
+    z-index: 2;
+}
+.blood-bottle>div.red-cell>span:nth-child(1){
+	top: 50%;
+	right: 15%;
+    border: 1px solid #444;
+    padding: 2px 8px;
+    background: #444;
+    color: #fff;
+}
+.blood-bottle>div.red-cell>span:nth-child(2){
+	top: 10%;
+	left: 25%;
+    border: 1px solid #f5f5f5;
+    padding: 2px 8px;
+    background: #fff;
+    color: #444;
+}
+.red-cell>span.cell-dot{
+	padding: 4px;
+	background: #666;
+	width: 0%;
+	border-radius: 100%;
+	z-index: 1;
+	top: 130px;
+	left: 15px;
+}
+.blood-group-text{
+	overflow: hidden;
+	position: relative;
+	top: 50%;
+	transform: translateY(100%);
+}
+.blood-group-text>h2{
+	font-family: 'PT Sans';
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.blood-group-text>p{
+	font-family: 'PT Sans';
+	font-size: 19px;
+}
+.face1,
+.face2{
+	text-align: center;
+    z-index: 5;
+}
+.face1>h3,
+.face2>h3{
+	font-family: 'PT Sans';
+	font-size: 17px;
+	text-align: center;
+	margin: 0;
+}
+.face1>span,
+.face2>span{
+	font-size: 132px;
+}
+.face1>span{
+	color: #fd1e3f;
+}
+.face2>span{
+	color: #ffd600;
+    -webkit-transition: all 4s;
+    -moz-transition: all 4s;
+    -ms-transition: all 4s;
+    -o-transition: all 4s;
+    transition: all 4s;
+}
+.blood-drop{
+    height: 10px;
+    position: absolute;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    top: 50%;
+    left: 15%;
+    -webkit-transform: translateY(-350%);
+    -moz-transform: translateY(-350%);
+    -ms-transform: translateY(-350%);
+    -o-transform: translateY(-350%);
+    transform: translateY(-350%);
+    z-index: 2;
+}
+.blood-drop>div{
+    height: 9px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: #fd1e3f;
+}
+.progress-info>h3{
+    text-align: center;
+    color: #3c763d;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 25px;
+    font-family: 'PT Sans';
+}
+.progress-info>h3>b{
+    font-size: 42px;
+    color: #3c763d;
+    line-height: 1.5;
+}
+.progress-info>p{
+    text-align: center;
+    font-family: 'PT Sans';
+    font-size: 15px;
+}
+.login-field{
+    height: 520px;
+}
+.login-panel{
+    max-width: 350px;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-box-shadow: 6px 6px 12px #CCCCCC;
+    -moz-box-shadow: 6px 6px 12px #CCCCCC;
+    box-shadow: 6px 6px 12px #CCCCCC;
+}
+.login-panel>div:nth-child(2){
+    padding: 35px;
+}
+.login-panel>div>h3{
+    margin-left: 0;
+    text-align: center;
+    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.login-panel>div>p{
+    font-size: 12px;
+    text-align: center;
+    font-family: 'PT Sans';
+    font-style: italic;
+    color: #337ac7;
+}
+.login-panel input,
+.doner-entry-box input,
+.doner-entry-box select,
+.doner-find-box input,
+.doner-find-box select,
+.blood-donor-search-panel select,
+.blood-donor-search-panel input{
+    border: 0;
+    padding: 5px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    -webkit-box-shadow: 2px 2px 4px #f2f2f2;;
+    -moz-box-shadow: 2px 2px 4px #f2f2f2;;
+    box-shadow: 2px 2px 4px #f2f2f2;;
+    transition: all 1s;
+}
+.login-panel input:active,
+.login-panel input:focus,
+.login-panel input:hover,
+.doner-entry-box input:focus,
+.doner-entry-box input:hover,
+.doner-entry-box input:active,
+.doner-entry-box select:focus,
+.doner-entry-box select:hover,
+.doner-entry-box select:active,
+.doner-find-box input:focus,
+.doner-find-box input:active,
+.doner-find-box input:hover,
+.doner-find-box select:focus,
+.doner-find-box select:hover,
+.doner-find-box select:active,
+.blood-donor-search-panel select:focus,
+.blood-donor-search-panel select:active{
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #eeeeee;
+    -webkit-box-shadow: 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px #ccc;
+    outline: 0;
+}
+.login-panel input[name='submit']:active,
+.login-panel input[name='submit']:focus,
+.login-panel input[name='submit']:hover{
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    transition: all 1s;
+    outline: 0;
+}
+.login-panel>.doner-entry-box>div{
+    padding: 0;
+}
+.login-other-field>p{
+    font-size: 11px;
+    font-family: 'PT Sans';
+}
+.login-other-field>p>a{
+    font-size: 13px;
+}
+.login-other-field>p>a:hover,
+.login-other-field>p>a:focus,
+.login-other-field>p>a:active{
+    text-decoration: none;
+    color: #fd1e3f;
+    transition: all 1s;
+    outline: 0;
+}
+.spinner{
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+.profile-body{
+    overflow: hidden;
+    margin: 15px 0;
+}
+.info-panel{
+    overflow: hidden;
+    max-width: 650px;
+    margin: 15px auto;
+    box-shadow: 6px 6px 15px #ccc;
+}
+.info-panel>div{
+    overflow: hidden;
+}
+.info-head>h3{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-family: 'PT Sans';
+    font-size: 27px;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+}
+.info-body{
+    padding: 25px;
+}
+.info-image>.image-load{
+    position: relative;
+    overflow: hidden;
+    max-width: 120px;
+    max-height: 120px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 2px;
+}
+.info-image>.image-load>img,
+.voter-front-image>.image-load>img,
+.voter-back-image>.image-load>img{
+    width: 100%;
+}
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    max-width: 120px;
+    width: 100%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-top: 0;
+    padding: 3px;
+}
+.image-preview-input input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+.image-preview-input>span{
+    position: relative;
+    bottom: 0;
+    font-family: 'PT Sans';
+}
+.voter-front-image>.image-load,
+.voter-back-image>.image-load{
+    position: relative;
+    overflow: hidden;
+    max-width: 220px;
+    max-height: 120px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    padding: 5px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.voter-img{
+    display: block;
+    margin: 15px 0;
+}
+.voter-img>div{
+    display: inline-block;
+}
+.voter-img>div:nth-child(1){
+    margin-right: 10px;
+}
+.voter-img>div:nth-child(2){
+    margin-left: 10px;
+}
+.voter-image-upload>div{
+    max-width: 220px;
+    width: 100%;
+}
+.spin-field,
+.vot-spin-field{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .3);
+    z-index: 9999;
+}
+.spin-field>.spinner,
+.vot-spin-field>.spinner{
+    display: block;
+    color: #fff;
+    top: 40px;
+    left: 45px;
+    font-size: 32px;
+    right: auto;
+}
+.vot-spin-field>.spinner{
+    left: 100px;
+}
+.info-footer{
+    overflow: hidden;
+    height: 50px;
+    text-align: right;
+}
+.info-footer>input{
+    margin-right: 25px;
+    background: #f7516b;
+    border: 1px solid #fd1e3f;
+    padding: 4px 15px;
+    font-family: 'PT Sans';
+    color: #eeeeee;
+    box-shadow: 2px 2px 6px #666;
+    transition: all .6s;
+}
+.info-footer>input:hover,
+.info-footer>input:active,
+.info-footer>input:focus{
+    background: #fd1e3f;
+    border: 1px solid #f7516b;
+    color: #ffffff;
+    box-shadow: none;
+    transition: all .6s;
+    outline: 0;
+}
+.info-body .col-md-6,
+.info-body .col-xs-6,
+.info-body .col-sm-6,
+.info-body .col-lg-6{
+    padding: 0;
+}
+.info-body>div>div.col-md-6:nth-child(1),
+.info-body>div>div.col-xs-6:nth-child(1),
+.info-body>div>div.col-sm-6:nth-child(1),
+.info-body>div>div.col-lg-6:nth-child(1){
+    padding-right: 15px;
+}
+.info-body>div>div.col-md-6:nth-child(2),
+.info-body>div>div.col-xs-6:nth-child(2),
+.info-body>div>div.col-sm-6:nth-child(2),
+.info-body>div>div.col-lg-6:nth-child(2){
+    padding-left: 15px;
+}
+.info-body .form-control{
+    border: none;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+    box-shadow: 2px 2px 6px #eee;
+}
+#login:hover,
+#login:focus,
+.doner-entry-box #submit:hover,
+.doner-entry-box #submit:focus,
+.doner-find-box #search:hover,
+.doner-find-box #search:focus,
+.reset-field input[type='button']:hover,
+.forget-field input[type='button']:hover,
+.reset-field input[type='button']:focus,
+.forget-field input[type='button']:focus,
+.blood-donor-search-panel input:focus,
+.blood-donor-search-panel input:hover{
+	box-shadow: none;
+    background: #f6516a;
+    color: #fff;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    outline: 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.register-panel{
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+}
+.register-field{
+    max-width: 780px;
+    width: 100%;
+    margin: 15px auto;
+    position: relative;
+    font-family: 'PT Sans';
+    -webkit-box-shadow: 3px 3px 6px #ccc;
+    -moz-box-shadow: 3px 3px 6px #ccc;
+    box-shadow: 3px 3px 6px #ccc;
+    padding: 15px;
+}
+.register-field>h3,
+.register-field>h5{
+    text-align: center;
+    margin-top: 0;
+}
+.register-field>h3{
+    font-size: 27px;
+    text-shadow: 1px 2px 1px #ccc;
+}
+.register-field>h5{
+    color: #444;
+}
+.new-account-create-box{
+    overflow: hidden;
+    font-family: 'PT Sans';
+    padding: 15px 5px;
+}
+.new-account-create-box>div{
+    margin-bottom: 15px;
+}
+.new-account-create-box>div>div:nth-child(1){
+    padding-right: 10px;
+}
+.new-account-create-box>div>div:nth-child(2){
+    padding-left: 10px;
+}
+.new-account-create-box input,
+.new-account-create-box select,
+.new-reg-field input,
+.new-reg-field select{
+    display: block;
+    width: 100%;
+	border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 3px #ccc;
+    -moz-box-shadow: 0 1px 3px #ccc;
+    box-shadow: 0 1px 3px #ccc;
+    padding: 5px 15px;
+    font-size: 15px;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+.new-reg-field input,
+.new-reg-field select{
+    font-size: 14px;
+}
+.new-account-create-box input:focus,
+.new-account-create-box select:focus,
+.new-reg-field input:focus,
+.new-reg-field select:focus{
+    outline: 0;
+    -webkit-box-shadow: 2px 2px 3px #ccc;
+    -moz-box-shadow: 2px 2px 3px #ccc;
+    box-shadow: 2px 2px 3px #ccc;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    outline: 0;
+}
+#register{
+    width: 130px;
+    float: right ! important;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    -webkit-box-shadow: 1px 1px 3px #ccc;
+    -moz-box-shadow: 1px 1px 3px #ccc;
+    box-shadow: 1px 1px 3px #ccc;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+#register:hover,
+#register:focus,
+#register:active{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: #f6516a;
+    color: #fff;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    outline: 0;
+}
+.notice{
+    font-size: 10px;
+    margin-bottom: 0;
+    padding-top: 25px;
+    color: #9d9d9d;
+}
+.desk-profile-action{
+    text-align: right;
+    padding: 15px 0;
+}
+#profile-btn{
+    margin-right: 15px;
+    margin-top: 15px;
+	border-bottom: 1px solid #eee;
+	-webkit-box-shadow: 0 1px 3px #ccc;
+	-moz-box-shadow: 0 1px 3px #ccc;
+	box-shadow: 0 1px 3px #ccc;
+	padding: 5px 15px;
+    color: #444;
+    font-family: 'PT Sans';
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+#profile-btn:focus,
+#profile-btn:hover{
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    text-decoration: none;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    outline: 0;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #444;
+    text-align: center;
+    padding: 7px 15px;
+    border-top: 1px solid #ccc;
+    box-shadow: 0px 0px 5px #ccc;
+}
+.logout:hover,
+.logout:focus{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+    color: #f6516a;
+    border-top: 1px solid #f6516a;
+    outline: 0;
+}
+.user-info-details{
+	width: 100%;
+	margin: 25px auto;
+	overflow: hidden;
+}
+.user-info-pic-detail{
+    display: block;
+    position: relative;
+}
+.user-info-pic-detail>div{
+    display: inline-block;
+    position: relative;
+}
+.voter-id-pic-show{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background: rgba(0, 0, 0, .4);
+    z-index: 99999999999;
+}
+.voter-id-pic-show>div{
+    overflow: hidden;
+    max-width: 320px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #f5f5f5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 2px 2px 6px #444;
+    -moz-box-shadow: 2px 2px 6px #444;
+    box-shadow: 2px 2px 6px #444;
+}
+.voter-id-pic-show>div>span{
+    float: right;
+    width: 22px;
+	cursor: pointer;
+}
+.voter-id-pic-show>div>span>img{
+    width: 15px;
+	padding-top: 5px;
+}
+.voter-id-pic-show>div.voter-img>div.voter-front-image,
+.voter-id-pic-show>div.voter-img>div.voter-back-image{
+    display: block;
+    margin: 0;
+    margin: 15px 0;
+}
+.voter-id-pic-show>div.voter-img>div.voter-front-image{
+    margin-top: 35px;
+}
+.voter-id-pic-show>div>div>div.image-load,
+.voter-id-pic-show>div>div>div>div.image-preview-input{
+    margin: auto;
+}
+.user-local-detail>p{
+    margin-bottom: 0;
+    margin-top: 4px;
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #444;
+}
+.user-local-detail>p:last-child{
+    text-align: center;
+}
+.user-local-detail>p>a{
+    font-family: 'PT Sans';
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+}
+.user-local-detail>p>a:hover,
+.user-local-detail>p>a:focus,
+.user-local-detail>p>a:active{
+    text-decoration: none;
+    color: #f6516a;
+}
+.user-local-detail>p>label{
+    width: 110px;
+    margin-bottom: 0;
+    font-weight: normal;
+    color: #000;
+}
+.voter-icon-list{
+    max-width: 120px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+.voter-icon-list>span{
+    width: 35px;
+    cursor: pointer;
+}
+.voter-icon-list>span:nth-child(2){
+	margin-right: 0;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.voter-icon-list>span>img{
+    width: 35px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+.user-info-contact-details{
+    margin: 25px 0;
+}
+.user-info-contact-details>h4{
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.user-contact-info>p{
+    margin-bottom: 7px;
+}
+.user-contact-info>p>span{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.user-contact-info>p:nth-child(2)>span{
+    font-size: 21px;
+}
+.user-life-chart{
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.user-life-chart>p{
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.user-life-chart>p>span{
+    position: relative;
+    bottom: 14.5px;
+    font-size: 21px;
+}
+.donate-report::-webkit-scrollbar{
+	width: 0;
+}
+.donate-list>table>thead>tr>th{
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+.donate-list>table>tbody>tr>td{
+    text-align: center;
+}
+.menu-header{
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+.menu-header>a{
+    display: block;
+    color: #444;
+    text-align: center;
+    padding: 7px 15px;
+    border-bottom: 1px solid #ccc;
+    -webkit-box-shadow: 0px 0px 5px #ccc;
+    -moz-box-shadow: 0px 0px 5px #ccc;
+    box-shadow: 0px 0px 4px #ccc;
+}
+.menu-header>a:hover,
+.menu-header>a:focus,
+.menu-header>a:active{
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: 0;
+}
+.top-search{
+    max-width: 780px;
+    width: 100%;
+    margin: 35px auto;
+    margin-bottom: 0px;
+    float: initial;
+    overflow: hidden;
+    padding: 5px;
+}
+.top-search>div{
+    text-align: center;
+}
+.top-search select{
+    max-width: 160px;
+    margin: auto;
+}
+.donor-list-header{
+    border-bottom: 1px solid #ccc;
+    font-family: 'PT Sans';
+    margin: 35px auto;
+    margin-bottom: 0;
+    margin-bottom: 0;
+}
+.donor-list-option{
+    text-align: center;
+}
+.donor-list-option>label{
+    margin-bottom: 0px;
+    max-width: 150px;
+    width: 100%;
+    padding: 6px;
+    font-size: 17px;
+    font-weight: normal;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    background: #f5f5f5;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: pointer;
+}
+.donor-list-option>.active-option{
+    background: #fff;
+    position: relative;
+    top: 1px;
+}
+.donor-list-all{
+    display: none;
+}
+#blood-donor-list{
+    width: 100%;
+    margin: 15px auto;
+    margin-bottom: 50px;
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.blood-donor-info-box{
+    max-width: 286px;
+    width: 100%;
+    background: #f5f5f5;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 15px;
+    -webkit-box-shadow: 2px 2px 8px #ccc;
+    -moz-box-shadow: 2px 2px 8px #ccc;
+    box-shadow: 2px 2px 8px #ccc;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    cursor: pointer;
+}
+.blood-donor-info-box:hover,
+.blood-donor-info-box:focus,
+.blood-donor-info-box:active{
+    -webkit-box-shadow: 0px 0px 4px #ccc;
+    -moz-box-shadow: 0px 0px 4px #ccc;
+    box-shadow: 0px 0px 4px #ccc;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.blood-donor-info-box>p{
+    margin: 0;
+    text-align: left;
+    color: #666;
+    cursor: pointer;
+    font-size: 13px;
+}
+.blood-donor-info-box>p:first-child{
+    color: #000;
+    font-size: 17px;
+}
+.blood-donor-info-box>p>label{
+    margin-bottom: 0;
+    font-weight: normal;
+}
+.blood-donor-info-box>p:first-child>label{
+    font-weight: bold;
+}
+.donor-details-panel{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .2);
+    padding: 15px;
+    z-index: 999999999999;
+}
+.donor-details-field{
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 6px #444;
+    font-family: 'PT sans';
+}
+.donor-id{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    box-shadow: 1px 1px 2px #ccc;
+}
+.donor-id>h4{
+    margin: 0;
+    padding: 8px 15px;
+    text-align: center;
+}
+.donor-id>span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.donor-id>span>img{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+.donor-profile{
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+.donor-profile>img{
+    width: 85px;
+    height: 85px;
+    box-shadow: 0px 0px 3px #ccc;
+    background: #fff;
+    padding: 5px;
+}
+.donor-panel-body{
+    padding: 0 15px;
+    padding-bottom: 15px;
+}
+.donor-body-details>p{
+    margin: 0;
+}
+.donor-body-details>p:first-child{
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.donor-body-details>p>label{
+    width: 150px;
+    padding-right: 15px;
+    text-align: right;
+    margin-bottom: 0;
+}
+.donor-body-details>p:first-child>label{
+    width: auto;
+    text-align: left;
+}
+.donor-panel-footer{
+    overflow: hidden;
+    display: block;
+    text-align: right;
+    padding: 10px 0;
+}
+.donor-contact-action>a>img{
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    padding: 7px;
+    background: #f90000;
+}
+.donor-contact-action>a{
+    margin-right: 10px;
+}
+.reset-panel,
+.forget-panel,
+.success-panel{
+    overflow: hidden;
+    height: 420px;
+    max-width: 320px;
+    width: 100%;
+    margin: 25px auto;
+    padding: 15px 15px;
+}
+.reset-panel>.alert>button{
+    top: -21px;
+}
+.success-panel{
+    display: none;
+}
+.reset-field,
+.forget-field,
+.success-field{
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px;
+    -webkit-box-shadow: 2px 2px 4px #ccc;
+    -moz-box-shadow: 2px 2px 4px #ccc;
+    box-shadow: 2px 2px 4px #ccc;
+    font-family: 'PT Sans';
+}
+.reset-field h3,
+.forget-field h3,
+.success-field h3{
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 21px;
+    text-align: center;
+}
+.reset-field input[type='password'],
+.forget-field input[type='text']{
+    border: none;
+    border-bottom: 1px solid #f5f5f5;
+    -webkit-box-shadow: 1px 1px 4px #ccc;
+    -moz-box-shadow: 1px 1px 4px #ccc;
+    box-shadow: 3px 3px 4px #f2f2f2;
+    outline: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.reset-field input[type='button'],
+.forget-field input[type='button']{
+    float: right;
+    border: none;
+    padding: 3px 15px;
+    border-bottom: 1px solid #f5f5f5;
+    background: #ccc;
+    -webkit-box-shadow: 2px 2px 4px #ccc;
+    -moz-box-shadow: 2px 2px 4px #ccc;
+    box-shadow: 2px 2px 4px #ccc;
+    margin-top: 10px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.blood-generation-title{
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'PT Sans';
+    font-size: 32px;
+}
+.blood-donor-search-panel{
+    overflow: hidden;
+    max-width: 320px;
+    width: 100%;
+    margin: 25px auto;
+    padding: 15px 0;
+    -webkit-box-shadow: 2px 2px 4px #ccc;
+    -moz-box-shadow: 2px 2px 4px #ccc;
+    box-shadow: 2px 2px 4px #ccc;
+}
+.seek-title{
+    font-family: 'PT Sans';
+    text-align: center;
+    text-shadow: 1px 1px 2px #ccc;
+}
+.seek-title>label{
+    font-weight: normal;
+    border-bottom: 2px solid #555;
+}
+#search-result{
+    overflow: hidden;
+    margin: 35px auto;
+    padding: 15px 0;
+    font-family: 'PT Sans';
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    border-left: 0;
+    border-right: 0;
+}
+#search-result>label{
+    font-weight: normal;
+    font-size: 17px;
+    color: #777;
+}
+.blood-life-main-body{
+    margin: 35px auto;
+    margin-top: 67px;
+}
+.donate-tag-reason,
+.new-donor-panel{
+    overflow: hidden;
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-family: 'PT Sans';
+}
+.donate-tag-reason>div>div{
+    padding: 0 15px;
+}
+.donate-tag-box{
+    max-width: 320px;
+    width: 100%;
+    margin: 15px auto;
+    -webkit-box-shadow: 0 0 4px #ccc;
+    -moz-box-shadow: 0 0 4px #ccc;
+    box-shadow: 0 0 4px #ccc;
+    padding: 10px;
+}
+.new-donor-logo{
+    max-width: 320px;
+    width: 100%;
+    margin: auto;
+}
+.tag-header>img,
+.new-donor-logo>img{
+    width: 100%;
+}
+.tag-body>h3{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0;
+    height: 40px;
+}
+.tag-footer{
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+}
+.tag-footer>a{
+    color: #444;
+    background: #f0f0f0;
+    padding: 7px 15px;
+    border-bottom: 1px solid #f5f5f5;
+    -webkit-box-shadow: 2px 2px 4px #ccc;
+    -moz-box-shadow: 2px 2px 4px #ccc;
+    box-shadow: 2px 2px 4px #ccc;
+}
+.tag-footer>a:hover,
+.tag-footer>a:focus{
+    color: #fff;
+    background: #f6516a;
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.new-reg-panel{
+    -webkit-box-shadow: 2px 2px 4px #ccc;
+    -moz-box-shadow: 2px 2px 4px #ccc;
+    box-shadow: 2px 2px 4px #ccc;
+    border: 1px solid #e5e5e5;
+    border-left: 0;
+    overflow: hidden;
+    width: 100%;
+    font-family: 'PT Sans';
+}
+.new-reg-head{
+    background: #e5e5e5;
+    padding: 10px 0;
+    -webkit-box-shadow: 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.new-reg-head>h3{
+    margin: 0;
+    font-weight: bold;
+    font-size: 21px;
+}
+.new-reg-head>h3>span{
+    width: 20px;
+    padding: 0 15px;
+}
+.new-reg-head>h3>span>img{
+    width: 20px;
+}
+.new-reg-body{
+    padding: 15px;
+}
+.new-reg-foot{
+    padding: 15px;
+    text-align: right;
+    padding-bottom: 0;
+}
+.new-reg-foot>input{
+    background: #e5e5e5;
+    border: 0;
+    border-bottom: 1px solid #f5f5f5;
+    -webkit-box-shadow: 0 0 4px #ccc;
+    -moz-box-shadow: 0 0 4px #ccc;
+    box-shadow: 0 0 4px #ccc;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 3px 15px;
+}
+.new-reg-foot>p{
+    text-align: left;
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 15px;
+}
+.new-reg-field{
+    overflow: hidden;
+    margin: 30px 0;
+    margin-bottom: 0;
+    padding: 2px;
+}
+.new-reg-field>div>div:nth-child(1){
+    padding-right: 8px;
+}
+.new-reg-field>div>div:nth-child(2){
+    padding-left: 8px;
+}
+.mid-field-info>div>div:nth-child(2){
+    padding-left: 10px;
+}
+.benifit-tag-box{
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    padding-top: 0;
+    border: 1px solid #e5e5e5;
+    font-family: 'PT Sans';
+}
+.benifit-tag-box>h3{
+    text-align: center;
+    margin: 10px 0;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 32px;
+}
+.benifit-tag-box>div>ul{
+    padding: 0;
+    padding-left: 1px;
+    overflow: hidden;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.benifit-tag-box>div>ul>li{
+    list-style: circle;
+    list-style-position: inside;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #f6516a;
+    cursor: pointer;
+}
+.mid-field-info-img-box{
+    max-width: 700px;
+    width: 100%;
+}
+.benefit-panel{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .2);
+    padding: 15px;
+    z-index: 999999999999999;
+    font-family: 'PT Sans';
+}
+.benefit-field{
+    max-width: 480px;
+    width: 100%;
+    margin: 15px auto;
+    background: #fff;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.benefit-head,
+.benefit-body{
+    position: relative;
+    overflow: hidden;
+}
+.benefit-head{
+    -webkit-box-shadow: 1px 1px 3px #ccc;
+    -moz-box-shadow: 1px 1px 3px #ccc;
+    box-shadow: 1px 1px 3px #ccc;
+}
+.benefit-body{
+    padding: 25px 15px;
+}
+.benefit-body>p{
+    font-size: 17px;
+}
+.benefit-head>h3{
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+}
+.benefit-head>span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.benefit-head>span>img{
+    width: 16px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-70%);
+}
+
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+@media screen and (max-width: 1265px){
+	.blood-list-count-field{
+		padding: 40px 10px;
+	}
+	.blood-list-mid-panel>div{
+		padding: 0 25px;
+	}
+    .benifit-tag-box>div>ul{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 1110px){
+	.blood-list-count-field>div.blood-list-left-logo,
+	.blood-list-count-field>div.blood-list-right-logo{
+		display: none;
+	}
+}
+@media screen and (max-width: 1067px){
+    .blood-drop{
+        -webkit-transform: translateY(-400%);
+        -moz-transform: translateY(-400%);
+        -ms-transform: translateY(-400%);
+        -o-transform: translateY(-400%);
+        transform: translateY(-400%);
+    }
+}
+@media screen and (max-width: 1010px){
+	.blood-list-mid-panel>div{
+		position: relative;
+		width: 24%;
+		margin: 10px 0;
+	}
+	.blood-list-mid-panel>div:nth-child(4){
+		border-right: 0;
+	}
+	.blood-list-mid-panel>div:before{
+		content: '';
+	    position: absolute;
+	    bottom: -10px;
+	    left: 10px;
+	    right: 10px;
+	    border-top: 1px solid #5b6674;
+	}
+	.blood-list-mid-panel>div:nth-child(5):before,
+	.blood-list-mid-panel>div:nth-child(6):before,
+	.blood-list-mid-panel>div:nth-child(7):before,
+	.blood-list-mid-panel>div:nth-child(8):before{
+		border-top: 0;
+	}
+}
+@media screen and (max-width: 998px){
+    .benifit-tag-box>div>ul{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .benifit-tag-box>div>ul>li:last-child{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 850px){
+	.blood-site-operation>div>div{
+		display: block;
+		width: 100%;
+	}
+	.blood-site-operation>div>div>div.blood-site-operation-box{
+		margin: 15px auto;
+    	float: unset;
+	}
+}
+@media screen and (max-width: 790px){
+	.desk-menu{
+		display: none;
+	}
+	.mob-menu{
+		display: block;
+	}
+}
+@media screen and (max-width: 767px){
+    .mid-field-info-img-box{
+        max-width: 100%;
+    }
+    .mid-field-info>div>div:nth-child(2) {
+        padding-left: 0;
+    }
+    .new-reg-field>div>div:nth-child(1){
+        padding-right: 0;
+    }
+    .new-reg-field>div>div:nth-child(2){
+        padding-left: 0;
+    }
+    .donate-tag-reason>div>div{
+        padding: 0 1px;
+    }
+    .login-field{
+        height: 460px;
+    }
+    .user-info-details{
+        padding: 15px 0;
+    }
+    .menu-panel{
+        top: 12px;
+    }
+    .menu-space>ul>li>a.active-menu,
+    .menu-panel>ul>li>a.active-menu{
+        border-bottom: 1px solid #f6516a;
+        -webkit-box-shadow: 1px 1px 0px #f6516a;
+        -moz-box-shadow: 1px 1px 0px #f6516a;
+        box-shadow: 1px 1px 0px #f6516a;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .menu-space>ul>li>a:hover,
+    .menu-panel>ul>li>a:hover,
+    .menu-space>ul>li>a:focus,
+    .menu-panel>ul>li>a:focus,
+    .menu-space>ul>li>a.active-menu:hover,
+    .menu-panel>ul>li>a.active-menu:hover,
+    .menu-space>ul>li>a.active-menu:focus,
+    .menu-panel>ul>li>a.active-menu:focus{
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-bottom: 1px solid #f6516a;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        outline: 0;
+    }
+    #profile-btn{
+        display: none;
+    }
+    .new-account-create-box>div>div{
+        margin-bottom: 15px;
+    }
+    #address{
+        margin-bottom: 15px;
+    }
+    .register-field{
+        padding: 5px;
+    }
+    #register{
+        margin-top: 15px;
+    }
+    .new-account-create-box>div{
+        margin-bottom: 0;
+    }
+    .new-account-create-box>div>div:nth-child(1){
+        padding-right: 0;
+    }
+    .new-account-create-box>div>div:nth-child(2){
+        padding-left: 0;
+    }
+	.blood-group{
+		top: 0%;
+		transform: translateY(0%);
+	}
+	.blood-group-text>h2{
+		margin-top: 0;
+	}
+	.blood-group-text>h2{
+		margin-top: 0;
+	}
+	.blood-group-text {
+	    top: 0%;
+	    transform: translateY(0%);
+	    padding: 0 25px;
+	    padding-bottom: 25px;
+	}
+	.space-blood-gen-trans{
+		height: 0px;
+	}
+	.parent-logo{
+		max-height: 270px;
+	}
+}
+@media screen and (max-width: 620px){
+    .donor-list-option>label{
+        font-size: 15px;
+    }
+    #blood-donor-list{
+        padding: 5px 5px;
+        margin: 0;
+    }
+    .blood-donor-info-box{
+        margin: 15px 0;
+    }
+}
+@media screen and (max-width: 580px){
+	.blood-list-mid-panel>div:nth-child(4){
+		border-right: 1px solid #5b6674;
+	}
+	.blood-list-mid-panel>div:nth-child(3),
+	.blood-list-mid-panel>div:nth-child(6){
+		border-right: 0;
+	}
+	.blood-list-mid-panel>div{
+		position: relative;
+		width: 32%;
+	}
+	.blood-list-mid-panel>div:nth-child(4):before,
+	.blood-list-mid-panel>div:nth-child(5):before,
+	.blood-list-mid-panel>div:nth-child(6):before{
+		border-top: 1px solid #5b6674;
+	}
+	.blood-list-mid-panel>div:nth-child(7):before,
+	.blood-list-mid-panel>div:nth-child(8):before{
+		border-top: 0;
+	}
+}
+@media screen and (max-width: 560px){
+    .voter-img>div:nth-child(2){
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 450px){
+    .benifit-tag-box>h3{
+        font-size: 25px;
+    }
+    .benifit-tag-box>ul>li{
+        font-size: 20px;
+    }
+    .donor-list-option>label{
+        max-width: 120px;
+        padding: 5px;
+    }
+    .profile-body{
+        margin: 15px auto;
+    }
+    .user-info-details{
+        margin: 0;
+    }
+    .user-info-pic-detail>div{
+        display: block;
+    }
+    .user-local-detail>p{
+        padding-left: 0;
+    }
+    .info-body>div>div.col-md-6:nth-child(1),
+    .info-body>div>div.col-xs-6:nth-child(1),
+    .info-body>div>div.col-sm-6:nth-child(1),
+    .info-body>div>div.col-lg-6:nth-child(1){
+        padding-right: 5px;
+    }
+    .info-body>div>div.col-md-6:nth-child(2),
+    .info-body>div>div.col-xs-6:nth-child(2),
+    .info-body>div>div.col-sm-6:nth-child(2),
+    .info-body>div>div.col-lg-6:nth-child(2){
+        padding-left: 5px;
+    }
+    .voter-img>div:nth-child(2){
+        margin-left: 0;
+    }
+	.blood-list-mid-panel>div:nth-child(3),
+	.blood-list-mid-panel>div:nth-child(6){
+		border-right: 1px solid #5b6674;
+	}
+	.blood-list-mid-panel>div:nth-child(even){
+		border-right: 0;
+	}
+	.blood-list-mid-panel>div{
+		width: 49%;
+	}
+	.blood-list-mid-panel>div{
+		position: relative;
+		padding: 0 5px;
+	}
+	.blood-list-mid-panel>div:nth-child(7):before,
+	.blood-list-mid-panel>div:nth-child(8):before{
+		border-top: 0;
+	}
+    .blood-drop{
+        top: 205px;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+/*------------------------------------------Slide Show Start---------------------------------------------------*/
+.mySlides img {
+    vertical-align: middle;
+    width: 100%;
+}
+#mobile{
+    display: none;
+}
+#desk{
+    display: block;
+}
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    bottom: 5px;
+    margin: 0 auto;
+    margin-top: 5px;
+    overflow: hidden;
+    height: 90vh;
+}
+.fade {
+    opacity: 1;
+    -webkit-animation-duration: 12s;
+    animation-duration: 12s;
+}
+/*------------------------------------------Slide Show Stop----------------------------------------------------*/
+
+/*------------------------------------------Contact US START---------------------------------------------------*/
+
+
+.row-eq-height{
+    display: flex;
+}
+.contact-panel{
+    overflow: hidden;
+    max-width: 980px;
+    width: 100%;
+    box-shadow: 3px 3px 6px #ccc;
+    margin: 35px auto;
+    margin-bottom: 100px;
+    position: relative;
+}
+.contact-panel>div>div:nth-child(2){
+    position: relative;
+    top: 50%;
+    transform: translateY(160%);
+    padding: 0 15px;
+}
+.contact-input-field{
+    overflow: hidden;
+    border-right: 1px solid #eee;
+    padding: 15px;
+    font-family: 'PT Sans';
+}
+.contact-icon-field{
+    font-size: 25px;
+    font-family: 'PT Sans';
+}
+.contact-icon-field>span{
+    font-size: 19px;
+}
+.contact-input-field input,
+.contact-input-field select,
+.contact-input-field textarea,
+.top-search select,
+.donor-list-nearby select{
+    display: block;
+    background: #fff;
+    width: 100%;
+    border: none;
+    -webkit-box-shadow: 0px 1px 6px #ccc;;
+    -moz-box-shadow: 0 1px 6px #ccc;
+    box-shadow: 0 1px 6px #ccc;
+    padding: 7px 15px;
+    font-size: 15px;
+    resize: none;
+    transition: all .6s;
+}
+.top-search select{
+    margin-bottom: 10px;
+}
+.donor-list-nearby>div>div:first-child{
+    text-align: right;
+    padding-right: 7px;
+}
+.donor-list-nearby>div>div:nth-child(2){
+    text-align: left;
+    padding-left: 7px;
+}
+.donor-list-nearby select{
+    max-width: 180px;
+    width: 100%;
+    margin: 35px auto;
+    margin-bottom: 3px;
+    display: initial;
+}
+.contact-input-field input:hover,
+.contact-input-field input:focus,
+.contact-input-field select:hover,
+.contact-input-field select:focus,
+.contact-input-field textarea:hover,
+.contact-input-field textarea:focus,
+.top-search select:hover,
+.top-search select:focus,
+.donor-list-nearby select:focus,
+.donor-list-nearby select:hover{
+    -webkit-box-shadow: 3px 3px 4px #ccc;
+    -moz-box-shadow: 3px 3px 4px #ccc;
+    box-shadow: 3px 3px 4px #ccc;
+    transition: all .6s;
+    outline: 0;
+}
+.contact-input-field>div{
+    margin-bottom: 15px;
+}
+.contact-input-field>div>div:first-child{
+    padding-right: 7px;
+}
+.contact-input-field>div>div:nth-child(2){
+    padding-left: 7px;
+}
+#sent{
+    padding: 5px 20px;
+    border: 0;
+    border-bottom: 1px solid #eeeeee;
+    -webkit-box-shadow: 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px #ccc;
+    transition: all 1s;
+}
+#sent:hover,
+#sent:focus{
+    background: #f6516a;
+    color: #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 0;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+    outline: 0;
+}
+.contact-details{
+    font-family: 'PT Sans';
+    padding: 0 10px;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+.contact-details>.text:last-child{
+    text-align: center;
+    font-size: 22px;
+}
+.heading{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'PT Sans';
+}
+.text{
+    font-size: 14px;
+}
+.text:nth-child(3)>span{
+    font-size: 22px;
+    margin-right: 4px;
+    position: relative;
+    top: 3px;
+}
+.icon{
+    color: black;
+}
+.facebookicon{
+    color: #03A9F4;
+}
+.twittericon{
+    color: #1DA1F2;
+}
+.instagramicon{
+    color: #E94F4E;
+}
+.footer{
+    padding: 0;
+	padding-top: 35px;
+    background: #fff;
+}
+.oval-footer-template{
+    background-color: #f6516a;
+    width:100%;
+    height: 35px;
+    border-radius: 50% / 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    position: relative;
+}
+.white-shape{
+    position: absolute;
+    top: 11px;
+    background-color: #fff;
+    width:100%;
+    height: 25px;
+    border-radius: 40% / 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.oval-footer-template>div:nth-child(2){
+    padding:35px 15px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #444;
+}
+.nav-footer{
+    background-color: #f6516a;
+    font-family: 'PT Sans';
+}
+.footer-copyright{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.nav-footer>div{
+    padding: 7px 15px;
+    font-size: 15px;
+    color: #fff;
+}
+.nav-footer>div>div:hover{
+
+}
+.nav-footer>div>span>i{
+    margin-left: 7px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.contact-details-field{
+    background-color: #f5f5f5;
+}
+.footer-menu{
+    text-align: right;
+}
+.foot-menu{
+    max-width: 140px;
+    width: 100%;
+    margin-right: 15px;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+.footer-menu>ul:nth-child(1){
+    max-width: 115px;
+}
+.foot-menu>li{
+    margin: 3px;
+    list-style: arabic-indic;
+    list-style-type: circle;
+}
+.foot-menu>li>a{
+    padding: 2px 10px;
+    padding-left: 0;
+    font-family: 'PT Sans';
+    font-size: 15px;
+    color: #444;
+    display: block;
+}
+.foot-menu>li>a:hover,
+.foot-menu>li>a:focus,
+.foot-menu>li>a:active{
+    text-decoration: none;
+    color: #f6516a;
+    outline: 0;
+}
+.mail-subscribe{
+    margin-left: 15px;
+    font-family: 'PT Sans';
+    max-width: 290px;
+    width: 100%;
+}
+.mail-subscribe>p{
+    font-size: 14px;
+}
+.mail-subscribe>div{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.mail-subscribe>div>input,
+.mail-subscribe>div>span{
+    display: inline-block;
+    height: 30px;
+}
+.mail-subscribe>div>input{
+    max-width: 250px;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    padding: 5px 15px;
+}
+.mail-subscribe>div>input:focus{
+    outline: 0;
+}
+.mail-subscribe>div>span{
+    width: 25px;
+    background: #f6516a;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    position: relative;
+    right: 5px;
+    top: -1px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+}
+.nav-footer>div:nth-child(2){
+    text-align: right;
+}
+@media screen and (max-width: 767px) {
+    #mobile{
+        display: block;
+    }
+    #desk{
+        display: none;
+    }
+	.slideshow-container{
+		height: 80vh;
+	}
+    .mail-subscribe>div>span{
+        top: -.5px;
+    }
+    .oval-footer-template>div>div:first-child>ul{
+        float: unset;
+    }
+    .oval-footer-template>div>div:first-child{
+        text-align: center;
+    }
+    .nav-footer>div{
+        text-align: center;
+    }
+    .nav-footer>div:nth-child(2){
+        text-align: center;
+    }
+    .mail-subscribe>div>input{
+        max-width: 220px;
+    }
+    .mail-subscribe>div>span{
+        max-width: 25px;
+    }
+    .foot-menu{
+        text-align: left;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .mail-subscribe{
+        margin: 0 auto;
+    }
+    .contact-input-field>div>div:nth-child(2){
+        padding-left: 0;
+        margin-top: 15px;
+    }
+    .contact-input-field>div>div:first-child{
+        padding-right: 0;
+    }
+    .row-eq-height{
+        display: initial;
+    }
+    .contact-details{
+        transform: initial;
+    }
+}
+/*------------------------------------------Contact US End-------------------------------------------------------------*/
+
+@media screen and (max-width: 450px) {
+    .top-search select {
+        font-size: 12px;
+    }
+}
+
+/*banner*/
+  .banner{
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+  }
+  .banner-heading{
+	  animation: banner 3s;
+
+  }
+  .banner-heading img{
+	  width: 80px;
+	  animation: beating 2s infinite;
+  }
+  @keyframes banner {
+	  0%{
+		  transform: translateX(-100px);
+		  opacity: 0;
+	  }
+	  100%{
+		  transform: translateX(0);
+		  opacity: 1;
+	  }
+  }
+
+  /*button*/
+.bannerBtn{
+	font-size: 17px;
+	background: red;
+	color: white;
+	animation-name: bannerBtn;
+	animation-duration: 3s;
+	animation-fill-mode: backwards;
+
+}
+@keyframes bannerBtn {
+	0%{
+		transform: translateY(130px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+.bannerBtn:hover{
+	background:#E94F4E;
+	border-radius: 16px;
+	transition: all .6s;
+	outline: 0;
+}
+  /*end of button*/
+/*heart beating*/
+@keyframes beating {
+	0%{
+		transform: scale(1);
+	}
+	40%{
+		transform: scale(1.1);
+	}
+	60%{
+		transform: scale(1.05);
+	}
+	80%{
+		transform: scale(1.1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+/*end heart beating*/
+/*end of banner*/
+/*details section*/
+.fromLeft{
+	animation: fromLeft 3s;
+}
+.fromRight{
+	animation: fromRight 3s;
+}
+.fromBottom{
+	animation: fromBottom 3s;
+}
+@keyframes fromLeft {
+		0%{
+			transform: translateX(-120px);
+			opacity: 0;
+		}
+		100%{
+			transform: translateX(0);
+			opacity: 1;
+		}
+	}
+@keyframes fromRight {
+	0%{
+		transform: translateX(120px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+@keyframes fromBottom {
+	0%{
+		transform: translateY(130px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+/*end of details section*/
